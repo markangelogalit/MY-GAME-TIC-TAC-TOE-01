@@ -378,6 +378,22 @@ namespace MY_GAME_TIC_TAC_TOE_01
                         buttontic9.Text = "";
                     }
                 }
+                if (buttontic7.Text == buttontic4.Text)
+                {
+                    if (buttontic4.Text == buttontic1.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic7.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
+                }
             }
         }
 
