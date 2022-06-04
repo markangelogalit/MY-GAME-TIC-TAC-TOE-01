@@ -91,7 +91,23 @@ namespace MY_GAME_TIC_TAC_TOE_01
                 }
                 if (buttontic2.Text == buttontic3.Text)
                 {
-                    if (buttontic3.Text == buttontic4.Text)
+                    if (buttontic3.Text == buttontic1.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic2.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
+                }
+                if (buttontic2.Text == buttontic5.Text)
+                {
+                    if (buttontic5.Text == buttontic8.Text)
                     {
                         MessageBox.Show("You are the Winner!" + buttontic2.Text);
                         buttontic1.Text = "";
