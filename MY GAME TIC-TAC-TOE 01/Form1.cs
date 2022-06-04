@@ -68,5 +68,9 @@ namespace MY_GAME_TIC_TAC_TOE_01
                         buttontic8.Text = "";
                         buttontic9.Text = "";
                     }
+                }
+            }
+        }
     }
-}
+
+    }
