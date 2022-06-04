@@ -97,6 +97,7 @@
             this.buttontic6.Size = new System.Drawing.Size(95, 76);
             this.buttontic6.TabIndex = 5;
             this.buttontic6.UseVisualStyleBackColor = false;
+            this.buttontic6.Click += new System.EventHandler(this.buttontic6_Click);
             // 
             // buttontic7
             // 
@@ -141,7 +142,7 @@
             this.Controls.Add(this.buttontic2);
             this.Controls.Add(this.buttontic1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "TIC-TAC-TOE GAME";
             this.ResumeLayout(false);
 
         }
