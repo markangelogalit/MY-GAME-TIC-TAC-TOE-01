@@ -147,7 +147,8 @@
             this.Controls.Add(this.buttontic1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "TIC-TAC-TOE GAME";
+            this.Text = "  MY TIC-TAC-TOE GAME";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

@@ -525,6 +525,11 @@ namespace MY_GAME_TIC_TAC_TOE_01
                 }
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
