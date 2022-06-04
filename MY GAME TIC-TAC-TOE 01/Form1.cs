@@ -200,5 +200,38 @@ namespace MY_GAME_TIC_TAC_TOE_01
                 }
             }
         }
+
+        private void buttontic7_Click(object sender, EventArgs e)
+        {
+            if (buttontic7.Text == "")
+            {
+                buttontic7.Text = Valuebtntic;
+                if (Valuebtntic == "X")
+                {
+                    Valuebtntic = "O";
+                }
+                else
+                {
+                    Valuebtntic = "X";
+                }
+                if (buttontic7.Text == buttontic8.Text)
+                {
+                    if (buttontic8.Text == buttontic9.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic7.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
+                }
+            }
+        }
     }
 }
+
