@@ -38,7 +38,40 @@ namespace MY_GAME_TIC_TAC_TOE_01
                     }
 
                 }
+                if (buttontic1.Text == buttontic4.Text)
+                {
+                    if (buttontic4.Text == buttontic7.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic1.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
 
+                }
+                if (buttontic1.Text == buttontic5.Text)
+                {
+                    if (buttontic5.Text == buttontic9.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic1.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
+
+                }
             }
 
         }
@@ -185,6 +218,22 @@ namespace MY_GAME_TIC_TAC_TOE_01
                         buttontic9.Text = "";
                     }
                 }
+                if (buttontic4.Text == buttontic7.Text)
+                {
+                    if (buttontic7.Text == buttontic1.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic4.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
+                }
             }
         }
 
@@ -302,6 +351,38 @@ namespace MY_GAME_TIC_TAC_TOE_01
                     if (buttontic9.Text == buttontic7.Text)
                     {
                         MessageBox.Show("You are the Winner!" + buttontic8.Text);
+                        buttontic1.Text = "";
+                        buttontic2.Text = "";
+                        buttontic3.Text = "";
+                        buttontic4.Text = "";
+                        buttontic5.Text = "";
+                        buttontic6.Text = "";
+                        buttontic7.Text = "";
+                        buttontic8.Text = "";
+                        buttontic9.Text = "";
+                    }
+                }
+            }
+        }
+
+        private void buttontic9_Click(object sender, EventArgs e)
+        {
+            if (buttontic9.Text == "")
+            {
+                buttontic9.Text = Valuebtntic;
+                if (Valuebtntic == "X")
+                {
+                    Valuebtntic = "O";
+                }
+                else
+                {
+                    Valuebtntic = "X";
+                }
+                if (buttontic9.Text == buttontic8.Text)
+                {
+                    if (buttontic8.Text == buttontic7.Text)
+                    {
+                        MessageBox.Show("You are the Winner!" + buttontic9.Text);
                         buttontic1.Text = "";
                         buttontic2.Text = "";
                         buttontic3.Text = "";

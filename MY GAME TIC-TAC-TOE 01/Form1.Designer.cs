@@ -127,6 +127,7 @@
             this.buttontic9.Size = new System.Drawing.Size(95, 76);
             this.buttontic9.TabIndex = 8;
             this.buttontic9.UseVisualStyleBackColor = false;
+            this.buttontic9.Click += new System.EventHandler(this.buttontic9_Click);
             // 
             // Form1
             // 
