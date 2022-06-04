@@ -87,6 +87,7 @@
             this.buttontic5.Size = new System.Drawing.Size(95, 76);
             this.buttontic5.TabIndex = 4;
             this.buttontic5.UseVisualStyleBackColor = false;
+            this.buttontic5.Click += new System.EventHandler(this.buttontic5_Click);
             // 
             // buttontic6
             // 
